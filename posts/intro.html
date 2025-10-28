@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Guatemala Beans — Introducere</title>
+  <!-- schimbă în ../styles.css dacă așa ți-ai numit fișierul -->
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="container nav">
+      <a class="brand" href="../index.html">
+        <span class="dot"></span>
+        <span>Guatemala<span style="opacity:.6">Beans</span></span>
+      </a>
+      <nav class="menu">
+        <a href="../index.html">Acasă</a>
+        <a href="./intro.html">Introducere</a>
+        <a href="./regiune.html">Regiune</a>
+        <a href="./arome.html">Arome</a>
+        <a href="./calitate.html">Calitate</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- CONȚINUT -->
+  <main class="container" style="padding:0">
+
+    <!-- COPERTĂ MARE cu titlul peste poză -->
+    <section class="cover" style="background-image:url('../img/Antigua-intro.jpg'); height:66vh; min-height:360px;">
+      <div class="cover-inner">
+        <h1 class="cover-title">Guatemala Antigua — Introducere</h1>
+        <p class="cover-sub">terroir vulcanic • altitudine 1500–1700 m • microclimate răcoroase = claritate & dulceață</p>
+      </div>
+    </section>
+
+    <!-- TEXT -->
+    <article class="post" style="margin-top:1.25rem">
+      <div class="p">
+        <div class="chip">Introducere</div>
+        <p>Guatemala (în special valea Antigua) înseamnă boabe <strong>100% Arabica</strong>, crescute pe sol vulcanic, la altitudine. Rezultatul: profil <em>curat</em>, echilibrat, cu note de ciocolată, condimente și o <strong>notă citrică fină</strong>.</p>
+
+        <h3>De ce contează zona</h3>
+        <ul class="list">
+          <li><strong>Vulcanii Agua, Fuego, Acatenango</strong> → mineralitate, drenaj bun.</li>
+          <li><strong>Noapți reci</strong> → maturare lentă → boabe mai dense, mai dulci.</li>
+          <li><strong>Procesare preponderent spălată (washed)</strong> → claritate & note bine definite.</li>
+        </ul>
+
+        <h3>La ce să te aștepți în ceașcă</h3>
+        <ul class="list">
+          <li><strong>Arome</strong>: ciocolată, condimente, nuci prăjite, caramel fin.</li>
+          <li><strong>Aciditate</strong>: citrică fină (lămâie/portocală), bine integrată.</li>
+          <li><strong>Corp</strong>: mediu, final curat, dulceag.</li>
+        </ul>
+      </div>
+    </article>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container" style="padding:1.5rem 0; display:flex; justify-content:space-between; gap:1rem; flex-wrap:wrap">
+      <p>© <span id="y"></span> Guatemala Beans • neoficial • educațional</p>
+      <p><a href="#">Sus ↑</a></p>
+    </div>
+  </footer>
+
+  <script>document.getElementById('y').textContent = new Date().getFullYear()</script>
+</body>
+</html>

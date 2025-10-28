@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Arome & corp</title>
+  <!-- dacă fișierul tău se numește styles.css, schimbă linia asta -->
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="container nav">
+      <a class="brand" href="../index.html">
+        <span class="dot"></span>
+        <span>Guatemala<span style="opacity:.6">Beans</span></span>
+      </a>
+      <nav class="menu">
+        <a href="../index.html">Acasă</a>
+        <a href="./intro.html">Introducere</a>
+        <a href="./regiune.html">Regiune</a>
+        <a href="./arome.html">Arome</a>
+        <a href="./calitate.html">Calitate</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- CONȚINUT -->
+  <main class="container" style="padding:0">
+
+    <!-- COPERTA: titlu pe poză (puțin mai mare decât în homepage) -->
+    <section class="cover" style="background-image:url('../img/arome.jpg'); height:66vh; min-height:360px;">
+      <div class="cover-inner">
+        <h1 class="cover-title">Arome & corp</h1>
+        <p class="cover-sub">ciocolată • condimente • nuci prăjite • notă citrică fină</p>
+      </div>
+    </section>
+
+    <!-- TEXT DEDESUBT -->
+    <article class="post" style="margin-top:1.25rem">
+      <div class="p">
+        <div class="chip">Profil senzorial</div>
+
+        <h2>Cum se simte o Guatemala „bună”</h2>
+        <ul class="list">
+          <li><strong>Note principale</strong>: ciocolată (neagră/lapte), condimente (scorțișoară/nucșoară), nuci prăjite, caramel fin.</li>
+          <li><strong>Aciditate</strong>: citrică fină (lămâie/portocală), integrată — dă claritate fără să înțepe.</li>
+          <li><strong>Corp</strong>: mediu; textură rotundă, final curat, dulceag.</li>
+        </ul>
+
+        <h3>Ce influențează gustul</h3>
+        <ul class="list">
+          <li><strong>Altitudinea & solul vulcanic</strong>: boabe dense → dulceață mai mare și claritate.</li>
+          <li><strong>Procesarea spălată</strong>: accent pe note curate, definite, mai puțin „siropoase”.</li>
+          <li><strong>Prajire</strong>: Light–Medium păstrează citricele și ciocolata clară; Medium împinge spre caramel/nuci.</li>
+        </ul>
+
+        <h3>Recomandări de preparare</h3>
+        <ul class="list">
+          <li><strong>V60</strong>: 1:16, apă 92–94°C, 2:30–3:00, măcinătură medie fină → claritate & citrice.</li>
+          <li><strong>Espresso</strong>: 18 g in → 36 g out / 27–32 s, 93°C → ciocolată + condimente echilibrate.</li>
+          <li><strong>French press</strong>: 1:15, 4 min, măcinătură grosieră → corp mai plin, nuci/caramel.</li>
+        </ul>
+      </div>
+    </article>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container" style="padding:1.5rem 0; display:flex; justify-content:space-between; gap:1rem; flex-wrap:wrap">
+      <p>© <span id="y"></span> Guatemala Beans • neoficial • educațional</p>
+      <p><a href="#">Sus ↑</a></p>
+    </div>
+  </footer>
+
+  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>

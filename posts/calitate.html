@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Calitate & procesare</title>
+  <!-- schimbă în ../styles.css dacă așa se numește fișierul tău -->
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="container nav">
+      <a class="brand" href="../index.html">
+        <span class="dot"></span>
+        <span>Guatemala<span style="opacity:.6">Beans</span></span>
+      </a>
+      <nav class="menu">
+        <a href="../index.html">Acasă</a>
+        <a href="./intro.html">Introducere</a>
+        <a href="./regiune.html">Regiune</a>
+        <a href="./arome.html">Arome</a>
+        <a href="./calitate.html">Calitate</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- CONȚINUT -->
+  <main class="container" style="padding:0">
+
+    <!-- COPERTA: titlu pe poză (puțin mai înaltă) -->
+    <section class="cover" style="background-image:url('../img/calitate.jpg'); height:66vh; min-height:360px;">
+      <div class="cover-inner">
+        <h1 class="cover-title">Calitate & procesare</h1>
+        <p class="cover-sub">selecție atentă • procesare spălată • consistență în cupă</p>
+      </div>
+    </section>
+
+    <!-- TEXT DEDESUBT -->
+    <article class="post" style="margin-top:1.25rem">
+      <div class="p">
+        <div class="chip">Standard de calitate</div>
+
+        <h2>Ce înseamnă „calitate” pentru Guatemala Starbucks</h2>
+        <ul class="list">
+          <li><strong>Specie & densitate</strong>: 100% Arabica, altitudine 1500–1700 m (SHB/Strictly Hard Bean) → boabe dense, prăjire uniformă.</li>
+          <li><strong>Selecție</strong>: cules <em>în valuri</em> (cherries coapte), sortare densimetrică + optică pentru uniformitate.</li>
+          <li><strong>Trasabilitate</strong>: loturi controlate din zonele Antigua / Huehuetenango / Atitlán, cooperare cu ferme tradiționale.</li>
+        </ul>
+
+        <h3>Procesare</h3>
+        <ul class="list">
+          <li><strong>Prevalent: spălat (washed)</strong> – claritate, aciditate precisă, note curate de ciocolată/citrice.</li>
+          <li><strong>Alternativ</strong>: honey sau natural pe microloturi (mai fructate, corp mai mare), folosite ocazional.</li>
+          <li><strong>Uscare</strong>: patio/african beds, umiditate finală țintă 10–12% pentru stabilitate.</li>
+        </ul>
+
+        <h3>Prăjire recomandată</h3>
+        <ul class="list">
+          <li><strong>Light–Medium</strong>: scoate claritatea și notele citrice; 12–16% dezvoltare după <em>first crack</em>.</li>
+          <li><strong>Medium</strong>: împinge către caramel/nuci; 16–20% dezvoltare pentru corp mai rotund.</li>
+          <li><strong>Uniformitate</strong>: profil termic blând, airflow suficient pentru a evita „tipping/scorching”.</li>
+        </ul>
+
+        <h3>Controlul calității</h3>
+        <ul class="list">
+          <li><strong>Defecte</strong>: eliminare primară/ secundară (quakers, under/over-dried).</li>
+          <li><strong>Cupping</strong>: batch-uri validate senzorial (claritate, echilibru, consistență între prăjiri).</li>
+          <li><strong>Ambalare & prospețime</strong>: saci cu supapă; fereastră optimă 2–6 săpt. după prăjire (filtru), 5–14 zile (espresso).</li>
+        </ul>
+
+        <h3>Ce să urmărești la achiziție</h3>
+        <ul class="list">
+          <li>Data prăjirii, nu doar expirarea; cere loturi din <strong>Antigua</strong> dacă vrei profil „curat & dulce”.</li>
+          <li>Boabe uniforme ca mărime și culoare; miros proaspăt, fără note de lemn/ carton umed.</li>
+          <li>Macină fix înainte de preparare; păstrare ermetică, la răcoare, ferit de lumină.</li>
+        </ul>
+      </div>
+    </article>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container" style="padding:1.5rem 0; display:flex; justify-content:space-between; gap:1rem; flex-wrap:wrap">
+      <p>© <span id="y"></span> Guatemala Beans • neoficial • educațional</p>
+      <p><a href="#">Sus ↑</a></p>
+    </div>
+  </footer>
+
+  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>

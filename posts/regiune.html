@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Regiunea — Valea Antigua</title>
+  <!-- ATENȚIE: fișierul este style.css (fără "s") -->
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="container nav">
+      <a class="brand" href="../index.html" aria-label="Înapoi la acasă">
+        <span class="dot"></span>
+        <span>Guatemala<span style="opacity:.6">Beans</span></span>
+      </a>
+      <nav class="menu" aria-label="Navigare">
+        <a href="../index.html">Acasă</a>
+        <a href="./intro.html">Introducere</a>
+        <a href="./regiune.html">Regiune</a>
+        <a href="./arome.html">Arome</a>
+        <a href="./calitate.html">Calitate</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- CONȚINUT -->
+  <main class="container" style="padding:0">
+
+    <!-- COPERTA: titlu & subtitlu peste poză (identic cu homepage) -->
+    <section class="cover" style="background-image:url('../img/regiune-cover.jpg'); height:56vh; min-height:320px;">
+      <div class="cover-inner">
+        <h1 class="cover-title">Regiunea — Valea Antigua</h1>
+        <p class="cover-sub">Agua • Fuego • Acatenango — sol vulcanic, altitudine 1500–1700 m (SHB), nopți reci → claritate și dulceață.</p>
+      </div>
+    </section>
+
+    <!-- DOAR TEXT DEDESUBT (fără alte poze) -->
+    <article class="post" style="margin-top:1.25rem">
+      <div class="p">
+        <div class="chip">Proveniență & Istorie</div>
+        <h2>De ce Antigua dă profil „curat” și dulce</h2>
+
+        <h3>Geografie & microclimat</h3>
+        <ul class="list">
+          <li><strong>Vulcanii Agua, Fuego, Acatenango</strong> creează o vale ferită: zile calde, nopți reci.</li>
+          <li><strong>Inversiune termică</strong> → maturare lentă → boabe mai dense, mai dulci.</li>
+          <li><strong>Altitudine</strong>: 1500–1700 m (SHB/Strictly Hard Bean).</li>
+        </ul>
+
+        <h3>Sol & agricultură</h3>
+        <ul class="list">
+          <li><strong>Sol vulcanic</strong> cu drenaj bun și mineralitate ridicată.</li>
+          <li><strong>Soiuri</strong>: Bourbon, Caturra, Typica, Catuai.</li>
+          <li><strong>Recoltare</strong>: manuală, în valuri (picking selectiv).</li>
+        </ul>
+
+        <h3>Procesare</h3>
+        <ul class="list">
+          <li><strong>Preponderent spălat (washed)</strong> → claritate, aciditate integrată, note bine definite.</li>
+          <li><em>Honey/Natural</em> apar ocazional ca microloturi (mai fructate).</li>
+        </ul>
+
+        <h3>Profil în ceașcă</h3>
+        <ul class="list">
+          <li><strong>Arome</strong>: ciocolată, condimente, nuci prăjite, caramel fin.</li>
+          <li><strong>Aciditate</strong>: citrică fină (lămâie/portocală).</li>
+          <li><strong>Corp</strong>: mediu; final curat, dulce.</li>
+        </ul>
+
+        <h3>Calendar orientativ</h3>
+        <ul class="list">
+          <li><strong>Înflorire</strong>: apr–mai • <strong>recoltare</strong>: nov–feb • <strong>export</strong>: ian–iun.</li>
+        </ul>
+      </div>
+    </article>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container" style="padding:1.5rem 0; display:flex; justify-content:space-between; gap:1rem; flex-wrap:wrap">
+      <p>© <span id="y"></span> Guatemala Beans • neoficial • educațional</p>
+      <p><a href="#">Sus ↑</a></p>
+    </div>
+  </footer>
+
+  <script>document.getElementById('y').textContent = new Date().getFullYear()</script>
+</body>
+</html>
