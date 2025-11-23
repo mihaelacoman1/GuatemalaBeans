@@ -66,7 +66,7 @@ header{position:sticky; top:0; backdrop-filter:saturate(140%) blur(6px); backgro
   position:relative;
   min-height:100vh;       /* ocupă toată înălțimea ecranului */
   height:100svh;          /* suport mobile */
-  background:#000 center/cover no-repeat; /* imagine setată inline în HTML */
+  background:#000 center/cover no-repeat; /* imagine inline in HTML */
 }
 .hero-full::before{
   content:''; position:absolute; inset:0;
@@ -88,7 +88,7 @@ header{position:sticky; top:0; backdrop-filter:saturate(140%) blur(6px); backgro
   max-width:900px; opacity:.95;
 }
 
-/* Secțiune 2 coloane: text stânga, poză dreapta */
+/* Secțiune 2 coloane: text stg, poză dreapta */
 .split{
   display:grid;
   grid-template-columns: 1.1fr .9fr;
@@ -110,7 +110,6 @@ header{position:sticky; top:0; backdrop-filter:saturate(140%) blur(6px); backgro
   border:1px solid var(--edge);
 }
 
-/* Responsive */
 @media (max-width: 900px){
   .mini{min-width:70%}
   .split{grid-template-columns: 1fr}
